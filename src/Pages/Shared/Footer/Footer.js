@@ -13,22 +13,22 @@ const Footer = () => {
             <div className='footer'>
                 <div>
                     <span className="footer-title">Services</span>
-                    <Link to="/" className="link link-hover">Cavity Filling</Link>
-                    <Link to="/" className="link link-hover">Fluoride Treatment</Link>
-                    <Link to="/" className="link link-hover">Root Canel</Link>
-                    <Link to="/" className="link link-hover">Teeth Whitening</Link>
+                    <Link to="/appoinment" className="link link-hover">Cavity Filling</Link>
+                    <Link to="/appoinment" className="link link-hover">Fluoride Treatment</Link>
+                    <Link to="/appoinment" className="link link-hover">Root Canel</Link>
+                    <Link to="/appoinment" className="link link-hover">Teeth Whitening</Link>
                 </div>
                 <div>
                     <span className="footer-title">Our Pages</span>
-                    <Link to="/" className="link link-hover">About us</Link>
+                    <Link to="/about" className="link link-hover">About us</Link>
                     <Link to="/" className="link link-hover">Contact</Link>
-                    <Link to="/" className="link link-hover">Appointment</Link>
-                    <Link to="/" className="link link-hover">Dashboard</Link>
+                    <Link to="/appoinment" className="link link-hover">Appointment</Link>
+                    <Link to="/" className="link link-hover">Home</Link>
                 </div>
                 <div>
                     <span className="footer-title">Legal</span>
-                    <Link to="/" className="link link-hover">Terms of use</Link>
-                    <Link to="/" className="link link-hover">Privacy policy</Link>
+                    <Link to="/about" className="link link-hover">Terms of use</Link>
+                    <Link to="/about" className="link link-hover">Privacy policy</Link>
                 </div>
             </div>
             <div className='text-center mt-32'>

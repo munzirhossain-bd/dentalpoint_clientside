@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'react-day-picker/dist/style.css';
 import AuthProvider from './contexts/AuthProvider';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import { HelmetProvider } from 'react-helmet-async';
 
 const queryClient = new QueryClient()
 
@@ -14,7 +15,9 @@ root.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
+      <HelmetProvider>
         <App />
+        </HelmetProvider>
       </AuthProvider>
     </QueryClientProvider>
   </React.StrictMode>
