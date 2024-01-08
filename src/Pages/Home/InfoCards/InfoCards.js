@@ -17,14 +17,14 @@ const InfoCards = () => {
         {
             id: 2,
             name: 'Our Locations',
-            description: 'Open 9.00 am to 5.00pm everyday',
+            description: '122 Charpara, Mymensingh Sadar, Mymensingh',
             icon: marker,
             bgClass: 'bg-accent'
         },
         {
             id: 3,
             name: 'Contact Us',
-            description: 'Open 9.00 am to 5.00pm everyday',
+            description: '0170472994   01516524284',
             icon: phone,
             bgClass: 'bg-gradient-to-r from-primary to-secondary'
         },

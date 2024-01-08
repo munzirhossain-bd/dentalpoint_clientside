@@ -9,7 +9,7 @@ const InfoCard = ({ card }) => {
             </figure>
             <div className="card-body">
                 <h2 className="card-title">{name}</h2>
-                <p>{description}</p>
+                <p className='text-2xl'>{description}</p>
             </div>
         </div>
     );
